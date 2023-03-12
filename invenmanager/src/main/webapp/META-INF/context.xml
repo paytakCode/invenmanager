@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource 
+		maxWaitMillis="10000"
+		maxIdle="20" 
+		maxTotal="8" 
+		password="inven"
+		username="invenmanager" 
+		url="jdbc:mysql://localhost:3306/invenmanager"
+		driverClassName="com.mysql.cj.jdbc.Driver" 
+		type="javax.sql.DataSource"
+		auth="Container" 
+		name="jdbc/invenmanager" />
+</Context>
