@@ -20,7 +20,6 @@ public class DBTest {
             connection = ds.getConnection();
             System.out.println("데이터베이스 연결 성공!");
 
-            // 데이터베이스 쿼리 실행
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT * FROM user");
             while (resultSet.next()) {
